@@ -176,7 +176,8 @@ my-app   Deployment/my-app   cpu: 102%/50%   2         5         4
 ```bash
 NAME                         CPU(cores)   MEMORY(bytes)
 my-app-6c7747b8b6-f7pwb     85m          128Mi
-```
 my-app-6c7747b8b6-mg6pf     92m          130Mi
 my-app-6c7747b8b6-qh64c     78m          125Mi
 my-app-6c7747b8b6-qktgm     88m          129Mi
+```
+

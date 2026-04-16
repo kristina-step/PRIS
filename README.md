@@ -167,15 +167,16 @@ while true; do wget -q -O- http://my-app-service.default.svc.cluster.local:5000;
 ## Результаты работы
 
 ### HPA в действии
-
+```bash
 NAME     REFERENCE           TARGETS    MINPODS   MAXPODS   REPLICAS
-
 my-app   Deployment/my-app   cpu: 102%/50%   2         5         4
+```
 
 ### Метрики подов
-
+```bash
 NAME                         CPU(cores)   MEMORY(bytes)
 my-app-6c7747b8b6-f7pwb     85m          128Mi
+```
 my-app-6c7747b8b6-mg6pf     92m          130Mi
 my-app-6c7747b8b6-qh64c     78m          125Mi
 my-app-6c7747b8b6-qktgm     88m          129Mi

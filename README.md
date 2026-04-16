@@ -23,9 +23,15 @@
 ## Структура репозитория
 
 PRIS/
+
 ├── app/
-│ ├── app.py # Flask-приложение
-│ └── Dockerfile # Docker образ
-├── deployment.yaml # Kubernetes Deployment
-├── service.yaml # Kubernetes Service
-└── README.md # Эта инструкция
+
+│ ├── app.py 
+
+│ └── Dockerfile 
+
+├── deployment.yaml
+
+├── service.yaml
+
+└── README.md # 

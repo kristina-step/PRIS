@@ -35,3 +35,22 @@ PRIS/
 ├── service.yaml
 
 └── README.md # 
+
+
+---
+
+##  Инструкция по развертыванию
+
+### 1. Установка Minikube и запуск кластера
+
+```bash
+# Установка Minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+# Запуск кластера
+minikube start --driver=docker --cpus=2 --memory=4096
+
+# Проверка
+kubectl cluster-info
+kubectl get nodes

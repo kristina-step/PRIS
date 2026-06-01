@@ -207,3 +207,5 @@ my-app-6c7747b8b6-qh64c     78m          125Mi
 my-app-6c7747b8b6-qktgm     88m          129Mi
 ```
 
+### Демонстрация работы (записывали с другого устройства)
+https://drive.google.com/file/d/1Wg7ZPp78V2cABvKnwXD_MKNjlwFG0L7_/view
